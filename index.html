@@ -8,6 +8,18 @@
   <link rel="icon" href="simge.png">
   <link rel="apple-touch-icon" href="simge.png">
   <link rel="stylesheet" href="stil.css">
+  <meta property="og:title" content="Alım Var — Kamu ilanları tek yerde">
+  <meta property="og:description" content="Memur, sözleşmeli, kamu işçisi ve akademik personel alım ilanları tek uygulamada. Ücretsiz.">
+  <meta property="og:image" content="https://alimvar.com.tr/simge.png">
+  <meta property="og:url" content="https://alimvar.com.tr/">
+  <script>
+    // Uygulamadan paylaşılan bağlantı: iPhone/iPad'den açan doğrudan App Store'a gider (?kal ile sitede kalınır).
+    (function () {
+      var ua = navigator.userAgent;
+      var ios = /iPhone|iPad|iPod/.test(ua) || (ua.indexOf('Macintosh') > -1 && navigator.maxTouchPoints > 1);
+      if (ios && location.search.indexOf('kal') === -1) location.replace('https://apps.apple.com/tr/app/id6837452333');
+    })();
+  </script>
 </head>
 <body>
   <header class="ust">
@@ -26,7 +38,8 @@
       <img src="simge.png" alt="Alım Var simgesi">
       <h1>Alım var!</h1>
       <p class="alt">Kamu personel alım ilanları tek yerde. Sana uygun olanları ayırır, yeni ilan çıkınca haber verir.</p>
-      <span class="rozet">Yakında App Store'da</span>
+      <a class="rozet" href="https://apps.apple.com/tr/app/id6837452333">App Store'dan ücretsiz indir</a>
+      <p class="not">Android sürümü yakında Google Play'de.</p>
     </section>
 
     <section class="ozellikler">

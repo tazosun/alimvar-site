@@ -48,6 +48,7 @@ main { padding: 40px 0 64px; }
   display: inline-block; background: var(--yazi); color: var(--zemin);
   padding: 12px 22px; border-radius: 12px; font-weight: 600; text-decoration: none;
 }
+.not { margin: 12px 0 0; color: var(--yazi-ikincil); font-size: 14px; }
 .ozellikler { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 40px 0; }
 .ozellik { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 14px; padding: 20px; }
 .ozellik h3 { margin: 0 0 6px; font-size: 17px; }
